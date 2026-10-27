@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rgwebd.github.io/jimmy-wilson-website/sitemap.xml
