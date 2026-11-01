@@ -274,6 +274,8 @@ section[id] { scroll-margin-top: 98px; }
 .service-detail-media img { width: 100%; height: 100%; object-fit: cover; }
 .service-detail-media::after { position: absolute; inset: 0; content: ""; pointer-events: none; background: linear-gradient(0deg, rgba(2,7,18,.48), transparent 55%); }
 .service-detail-media figcaption { position: absolute; z-index: 2; right: 25px; bottom: 22px; left: 25px; color: #fff; font-size: 11px; letter-spacing: .06em; }
+.service-detail-media--landscape { min-height: 0; margin: 0; aspect-ratio: 4 / 3; }
+.service-detail-media--landscape figcaption { line-height: 1.5; text-shadow: 0 2px 12px rgba(2,7,18,.9); }
 .service-detail-copy h2 { margin: 0; font-family: var(--serif); font-size: clamp(39px, 4.8vw, 64px); font-weight: 400; letter-spacing: -.05em; line-height: 1.04; }.service-detail-copy h2 em { color: var(--red); font-weight: 400; }
 .service-detail-copy .detail-lede { margin: 25px 0 17px; color: var(--ink); font-family: var(--serif); font-size: 19px; line-height: 1.6; }
 .service-detail-copy > p:not(.eyebrow):not(.detail-lede) { color: #606b78; }
@@ -390,6 +392,8 @@ section[id] { scroll-margin-top: 98px; }
   .main-nav { gap: 17px; }.main-nav > a { font-size: 11px; }.brand-copy small { display: none; }
   .hero-grid { grid-template-columns: 1fr .58fr; gap: 40px; }
   .services-showcase { grid-template-columns: repeat(2, minmax(0, 1fr)); }.services-showcase > .service-feature--wide { grid-column: 1 / -1; }.services-intro { position: static; grid-row: auto; grid-column: 1 / -1; max-width: 720px; }.service-callout { grid-column: 1 / -1; }
+  .service-page--t900 .editorial-grid { grid-template-columns: 1fr; gap: 38px; }
+  .service-page--t900 .editorial-grid .service-detail-media { width: min(100%, 720px); justify-self: center; }
   .section-heading--gallery, .process-layout, .faq-layout, .estimate-layout, .service-detail-grid, .coverage-intro { gap: 55px; }
   .project-grid { grid-template-columns: repeat(3, 1fr); }.project-card--wide { grid-column: span 2; }
   .about-layout { gap: 60px; }.about-images { min-height: 570px; }
