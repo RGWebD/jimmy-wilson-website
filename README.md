@@ -2,4 +2,4 @@
 
 Public static website for JW Painting & Flooring.
 
-Live site: https://rgwebd.github.io/jimmy-wilson-website/
+Live site: https://jwpaintingandepoxy.com/
