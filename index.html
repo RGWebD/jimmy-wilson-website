@@ -24,33 +24,214 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
   {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "JW Painting & Epoxy Flooring",
-    "alternateName": ["JW Painting & Flooring", "ProFinish Paint & Epoxy LLC"],
-    "url": "https://jwpaintingandepoxy.com/",
-    "telephone": "+1-904-233-2110",
-    "logo": {"@type": "ImageObject", "url": "https://jwpaintingandepoxy.com/assets/jw-logo.jpg", "width": 1168, "height": 784},
-    "description": "Owner-led painting, flooring, epoxy coating and repair services in Jacksonville and Northeast Florida.",
-    "slogan": "Where Precision Meets Perfection",
-    "areaServed": ["Jacksonville", "Duval County", "Clay County", "Nassau County", "Baker County", "Northern St. Johns County"],
-    "founder": {"@type": "Person", "name": "Jimmie Wilson"},
-    "contactPoint": {"@type": "ContactPoint", "telephone": "+1-904-233-2110", "contactType": "estimates and customer service", "areaServed": "Northeast Florida", "availableLanguage": "English"},
-    "sameAs": ["https://maps.google.com/?cid=11958403949267693995", "https://www.facebook.com/people/JW-Painting-Pressure-Washing-Epoxy-Flooring/100093809681098/"],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Painting, flooring and surface services",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Interior and exterior painting", "url": "https://jwpaintingandepoxy.com/services/painting/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Flooring installation", "url": "https://jwpaintingandepoxy.com/services/flooring/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Epoxy and concrete coatings", "url": "https://jwpaintingandepoxy.com/services/epoxy-coatings/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Surface preparation and repairs", "url": "https://jwpaintingandepoxy.com/services/prep-repairs/"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Vinyl and VCT floor protection with Rockhard T900", "url": "https://jwpaintingandepoxy.com/vinyl-vct-floor-protection/"}}
-      ]
+   "@type": "HomeAndConstructionBusiness",
+   "@id": "https://jwpaintingandepoxy.com/#business",
+   "name": "JW Painting & Epoxy Flooring",
+   "alternateName": [
+    "JW Painting & Flooring",
+    "ProFinish Paint & Epoxy LLC"
+   ],
+   "url": "https://jwpaintingandepoxy.com/",
+   "telephone": "+1-904-233-2110",
+   "image": "https://jwpaintingandepoxy.com/assets/jw-logo.jpg",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://jwpaintingandepoxy.com/assets/jw-logo.jpg",
+    "width": 1168,
+    "height": 784
+   },
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Jacksonville",
+    "addressRegion": "FL",
+    "addressCountry": "US"
+   },
+   "areaServed": [
+    {
+     "@type": "City",
+     "name": "Jacksonville, FL"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Duval County, FL"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Clay County, FL"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Nassau County, FL"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Baker County, FL"
+    },
+    {
+     "@type": "AdministrativeArea",
+     "name": "Northern St. Johns County, FL"
     }
+   ],
+   "openingHoursSpecification": [
+    {
+     "@type": "OpeningHoursSpecification",
+     "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+     ],
+     "opens": "07:00",
+     "closes": "20:00"
+    }
+   ],
+   "hasMap": "https://maps.google.com/?cid=11958403949267693995",
+   "sameAs": [
+    "https://maps.google.com/?cid=11958403949267693995",
+    "https://www.facebook.com/people/JW-Painting-Pressure-Washing-Epoxy-Flooring/100093809681098/"
+   ],
+   "founder": {
+    "@type": "Person",
+    "name": "Jimmie Wilson",
+    "jobTitle": "Owner"
+   },
+   "description": "Owner-led painting, flooring, epoxy coating and repair services in Jacksonville and Northeast Florida.",
+   "slogan": "Where Precision Meets Perfection",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Painting, flooring and surface services",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Interior and exterior painting",
+       "url": "https://jwpaintingandepoxy.com/services/painting/"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Flooring installation",
+       "url": "https://jwpaintingandepoxy.com/services/flooring/"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Epoxy and concrete coatings",
+       "url": "https://jwpaintingandepoxy.com/services/epoxy-coatings/"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Surface preparation and repairs",
+       "url": "https://jwpaintingandepoxy.com/services/prep-repairs/"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Vinyl and VCT floor protection with Rockhard T900",
+       "url": "https://jwpaintingandepoxy.com/vinyl-vct-floor-protection/"
+      }
+     }
+    ]
+   },
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1-904-233-2110",
+    "contactType": "estimates and customer service",
+    "areaServed": "Northeast Florida",
+    "availableLanguage": "English"
+   },
+   "knowsAbout": [
+    "Interior and exterior painting",
+    "Drywall and surface preparation",
+    "Luxury vinyl plank and LVT flooring",
+    "Porcelain and ceramic tile flooring",
+    "Engineered and solid hardwood flooring",
+    "Laminate flooring",
+    "Garage flake and polyaspartic floor coatings",
+    "Commercial epoxy flooring",
+    "Pool-deck and lanai coatings",
+    "Water-damaged floor replacement",
+    "Rockhard T900 clear-coat protection for compatible vinyl, linoleum and VCT floors"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://jwpaintingandepoxy.com/#website",
+   "url": "https://jwpaintingandepoxy.com/",
+   "name": "JW Painting & Epoxy Flooring",
+   "publisher": {
+    "@id": "https://jwpaintingandepoxy.com/#business"
+   },
+   "inLanguage": "en-US"
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://jwpaintingandepoxy.com/#faq",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What kinds of flooring do you install?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "LVP and LVT, porcelain and ceramic tile, engineered hardwood, solid hardwood and laminate, plus rental-property and fast move-in flooring."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can JW handle paint and flooring on the same project?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Painting, drywall work, flooring and concrete coatings can be scoped together so you are not coordinating separate crews."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What epoxy and coating work is available?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Garage flake and polyaspartic systems, commercial epoxy, pool-deck and lanai coatings, epoxy repair and recoating, plus clear coats and sealers."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do you repair damaged floors?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "JW handles water-damaged floor replacement, buckled or cupped floor repairs, popped or cracked tile and time-sensitive move-in work."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Who receives the 10% discount?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Seniors, military members and veterans, law enforcement, firefighters and emergency service members. Mention the appreciation discount when you request your estimate."
+     }
+    }
+   ]
   }
+ ]
+}
   </script>
+  <!-- AI/search visibility (Nov 12, 2026) -->
+  <meta property="og:site_name" content="JW Painting &amp; Epoxy Flooring">
+  <meta property="og:locale" content="en_US">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
