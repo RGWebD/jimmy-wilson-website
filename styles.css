@@ -163,7 +163,7 @@ section[id] { scroll-margin-top: 98px; }
 .process-list h3 { margin: 32px 0 8px; font-family: var(--serif); font-size: 25px; font-weight: 400; }.process-list p { margin: 0; color: #69727c; font-size: 13px; }
 
 .section--reviews { position: relative; overflow: hidden; color: #fff; background: var(--ink-deep); }
-.section--reviews::before { position: absolute; inset: 0; content: ""; opacity: .2; background: linear-gradient(90deg, rgba(2,7,18,.88), rgba(2,7,18,.7)), url("assets/projects/project-04.webp") center 65% / cover; }
+.section--reviews::before { position: absolute; inset: 0; content: ""; opacity: .2; background: linear-gradient(90deg, rgba(2,7,18,.88), rgba(2,7,18,.7)), url("assets/projects/project-25.webp") center 65% / cover; }
 .section--reviews > .shell { position: relative; }
 .section--reviews .eyebrow--dark { color: var(--gold-light); }
 .section--reviews .button--navy { color: var(--ink-deep); background: var(--gold-light); border-color: var(--gold); }
@@ -298,11 +298,12 @@ section[id] { scroll-margin-top: 98px; }
 .related-section { color: #fff; background: var(--ink-deep); }.related-section .page-intro > p:not(.eyebrow) { color: rgba(255,255,255,.66); }
 .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }.related-card { min-height: 260px; padding: 30px; display: flex; flex-direction: column; justify-content: space-between; color: #fff; background: var(--navy); border: 1px solid rgba(240,205,125,.22); }.related-card small { color: var(--gold-light); font-size: 9px; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }.related-card h3 { margin: 45px 0 25px; font-family: var(--serif); font-size: 27px; font-weight: 400; }.related-card span { color: #ff646b; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }.related-card:hover { border-color: var(--gold); }
 
-.page-cta { position: relative; padding: 105px 0; overflow: hidden; color: #fff; text-align: center; background: var(--navy); }.page-cta::before { position: absolute; inset: 0; content: ""; opacity: .16; background: var(--page-cta-image, url("assets/projects/project-06.webp")) center / cover; }.page-cta > .shell { position: relative; }.page-cta h2 { max-width: 900px; margin: 0 auto; font-family: var(--serif); font-size: clamp(40px, 5.5vw, 72px); font-weight: 400; letter-spacing: -.05em; line-height: 1.05; }.page-cta p { max-width: 650px; margin: 24px auto 30px; color: rgba(255,255,255,.72); }.page-cta__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
-.service-page--flooring { --page-cta-image: url("assets/projects/project-11.webp"); }
-.service-page--epoxy { --page-cta-image: url("assets/projects/project-14.webp"); }
-.service-page--repairs { --page-cta-image: url("assets/projects/project-17.webp"); }
-.service-page--areas { --page-cta-image: url("assets/projects/project-10.webp"); }
+.page-cta { position: relative; padding: 105px 0; overflow: hidden; color: #fff; text-align: center; background: var(--navy); }.page-cta::before { position: absolute; inset: 0; content: ""; opacity: .16; background: var(--page-cta-image, url("assets/projects/project-25.webp")) center / cover; }.page-cta > .shell { position: relative; }.page-cta h2 { max-width: 900px; margin: 0 auto; font-family: var(--serif); font-size: clamp(40px, 5.5vw, 72px); font-weight: 400; letter-spacing: -.05em; line-height: 1.05; }.page-cta p { max-width: 650px; margin: 24px auto 30px; color: rgba(255,255,255,.72); }.page-cta__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.service-page--flooring { --page-cta-image: url("assets/projects/project-25.webp"); }
+.service-page--epoxy { --page-cta-image: url("assets/projects/project-25.webp"); }
+.service-page--repairs { --page-cta-image: url("assets/projects/project-25.webp"); }
+.service-page--areas { --page-cta-image: url("assets/projects/project-25.webp"); }
+.reviews-page { --page-cta-image: url("assets/projects/project-23.webp"); }
 .service-page--epoxy .inner-hero__media img { object-position: center 68%; }
 
 /* Expanded service, area and company pages */
